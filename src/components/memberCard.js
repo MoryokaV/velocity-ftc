@@ -34,7 +34,7 @@ const MemberCard = (props) => {
           <SocialIcon url={instagram} icon={ig} />
           <SocialIcon url={github} icon={gh} />
         </div>
-        {teamName && <img src={teamName} alt="Team logo" className="w-1/3" />}
+        {teamName && <img src={teamName} alt="Team logo" className="w-1/6" />}
       </footer>
     </figure>
   );
