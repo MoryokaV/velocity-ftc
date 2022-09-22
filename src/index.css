@@ -20,6 +20,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f1f3f5;
   position: relative;
+  color: #343a40;
 }
 
 /* MARQUEE */

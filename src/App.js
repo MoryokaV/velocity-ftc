@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/home";
 import Team from "./pages/team";
+import Archive from "./pages/archive";
 
 function App() {
   return (
@@ -17,10 +18,6 @@ function App() {
 
 const Outreach = () => {
   return <h1>Outreach</h1>;
-};
-
-const Archive = () => {
-  return <h1>Archive</h1>;
 };
 
 export default App;
