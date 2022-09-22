@@ -11,7 +11,7 @@ const Navbar = () => {
 
       <nav className="flex gap-4">
         <NavItem title="Acasă" url="/" />
-        <NavItem title="Outreach" url="/outreach" />
+        <NavItem title="Evenimente" url="/outreach" />
         <NavItem title="Echipă" url="/team" />
         <NavItem title="Arhivă" url="/archive" />
       </nav>

@@ -1,3 +1,5 @@
+import SocialIcon from "../components/socialIcon";
+
 import ig from "../assets/icons/instagram.png";
 import fb from "../assets/icons/facebook.png";
 import gh from "../assets/icons/github.png";
@@ -37,19 +39,6 @@ const MemberCard = (props) => {
         {teamName && <img src={teamName} alt="Team logo" className="w-1/6" />}
       </footer>
     </figure>
-  );
-};
-
-const SocialIcon = (props) => {
-  return (
-    props.url && (
-      <img
-        src={props.icon}
-        alt="social media icon"
-        className="w-6 grayscale hover:grayscale-0 cursor-pointer"
-        onClick={() => window.open(props.url)}
-      />
-    )
   );
 };
 

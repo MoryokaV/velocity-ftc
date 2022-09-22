@@ -74,7 +74,7 @@ const Home = () => {
           <div>
             <h3 className="font-medium mb-4 text-3xl">
               Cum a luat nastere{" "}
-              <span className="font-semibold text-blue-800">Velocity Blue</span>
+              <span className="font-semibold text-blue-600">Velocity Blue</span>
               ?
             </h3>
             <p className="tracking-wide">{AboutData.blue}</p>
@@ -93,7 +93,7 @@ const Gallery = () => {
         <figure key={index} className="overflow-hidden">
           <img
             src={robot}
-            className="block w-full h-full object-cover hover:scale-110 transition-all"
+            className="block w-full h-full max-h-72 object-cover hover:scale-110 transition-all"
             alt={`robot${index}`}
           />
         </figure>

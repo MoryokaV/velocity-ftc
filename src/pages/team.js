@@ -19,14 +19,14 @@ const Team = () => {
           <h2 className="font-semibold text-4xl mb-2 text-center">
             Echipa noastră
           </h2>
-          <div className="mx-auto w-28 h-1 bg-blue-800 mb-6"></div>
+          <div className="mx-auto w-28 h-1 bg-blue-500 mb-6"></div>
           <p className="tracking-wide text-lg">{TeamData.about}</p>
         </section>
         <section className="mb-10">
           <h2 className="font-semibold text-4xl mb-2 text-center">
             Membrii noștri
           </h2>
-          <div className="mx-auto w-28 h-1 bg-blue-800 mb-6"></div>
+          <div className="mx-auto w-28 h-1 bg-blue-500 mb-6"></div>
           <div className="grid grid-cols-4 gap-6 md:grid-cols-3">
             {TeamData.members.map((member, index) => {
               return <MemberCard member={member} key={index} />;
@@ -35,7 +35,7 @@ const Team = () => {
         </section>
         <section className="mb-10">
           <h2 className="font-semibold text-4xl mb-2 text-center">Mentori</h2>
-          <div className="mx-auto w-16 h-1 bg-blue-800 mb-6"></div>
+          <div className="mx-auto w-16 h-1 bg-blue-500 mb-6"></div>
           <div className="grid grid-cols-4 gap-6 md:grid-cols-3">
             {TeamData.mentors.map((mentor, index) => {
               return <MemberCard member={mentor} key={index} />;
