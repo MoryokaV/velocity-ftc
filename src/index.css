@@ -43,10 +43,6 @@ body {
   animation: autoscroll 15s linear infinite;
 }
 
-.marquee:hover > div {
-  animation-play-state: paused;
-}
-
 .marquee::before,
 .marquee::after {
   background: linear-gradient(

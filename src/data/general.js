@@ -49,8 +49,8 @@ const GeneralData = {
   ],
   facebook: "https://www.facebook.com/velocityroboticsteam",
   instagram: "https://www.instagram.com/velocity_robotics",
-  email: "velocity@cngmm.ro",
-  phone: "+40736743002",
+  email: "robotica.murgoci@cngmm.ro",
+  phone: "+40746030153",
 };
 
 export default GeneralData;

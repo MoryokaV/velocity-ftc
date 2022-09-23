@@ -9,7 +9,7 @@ import robot8 from "../assets/robots/robot8.jpg";
 import robot9 from "../assets/robots/robot9.jpg";
 
 const AboutData = {
-  subtitle: "RO058 - Leadership, tehnica & devotament",
+  subtitle: "RO058 - Inginerie Românească - RO030",
   ftc_p1:
     "FIRST® inspiră tinerii să devină lideri și inovatori în domeniul științei și al tehnologiei, angajându-i în programe interesante bazate pe dezvoltarea abilităților în știință, inginerie și tehnologie, care inspiră inovația, încrederea în sine, comunicarea, și conducere.",
   ftc_p2:
@@ -27,7 +27,7 @@ const AboutData = {
     robot8,
     robot9,
   ],
-  red: "Duis aliquam dui quis luctus elementum. Vestibulum fringilla nunc in lorem placerat, id vulputate purus euismod. Nullam hendrerit erat nibh. Aliquam ligula mi, congue eu risus vel, consectetur fermentum velit. Aliquam venenatis justo viverra ligula iaculis, nec hendrerit lectus rutrum. Fusce in odio sagittis, sodales nulla non, hendrerit elit. Duis scelerisque, odio in imperdiet ultrices, leo augue porta nibh, sed lacinia metus metus vel mauris. Mauris ultricies augue nec arcu imperdiet, in feugiat neque sagittis. Ut sit amet nisi mi. Donec ligula tellus, accumsan quis ligula ut, lobortis ultrices dui. Pellentesque non elit interdum, bibendum augue ornare, auctor ipsum. Integer nec imperdiet mi. Quisque ut libero semper, feugiat enim ac, ullamcorper leo.",
+  red: "În urmă cu 5 ani, câțiva elevi ai Colegiului Național „Gheorghe Munteanu Murgoci” Brăila au întemeiat PRIMUL CLUB DE ROBOTICĂ din județ. Astăzi, 15 elevi, formăm echipa Velocity Red și ne putem mândri cu peste 10 roboți construiți. Prin intermediul echipei, VELOCITY ne propunem să îmbinam pasiunea pentru robotica cu dorinta de a ne dezvolta atat pe plan profesioal cat si pe plan personal invatand sa lucram in echipa si sa gestionam diverse situatii cu maturitate si seriozitate. VELOCITY pune accentul pe încurajarea elevilor de a excela la concursurile la care participa (precum 'First Tech Challenge'), iar pe viitor de a evolua pe cat mai multe planuri cu scopul de a putea ajunge sa lucreze in domenii de tip STEM.",
   blue: "Echipa Velocity Blue a luat naștere datorită interesului sporit asupra acestui domeniu, în comunitatea noastră locală. Pentru cei nou veniți reprezintă o pistă de lansare, având totodată prilejul de a beneficia de cunoștințele echipei principale, Velocity Red. Noi ajutăm tinerii să își descopere noi abilități tehnice într-un mediu prietenos de învățare. Echipa nu este doar în căutare de premii, ci urmărește să formeze inginerii de mâine.",
 };
 
