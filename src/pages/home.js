@@ -21,7 +21,7 @@ const Home = () => {
                   src={sponsor.icon}
                   alt={sponsor.name}
                   key={index}
-                  className="h-16"
+                  className="h-12 md:h-16"
                 />
               );
             })}
@@ -33,14 +33,17 @@ const Home = () => {
                   src={sponsor.icon}
                   alt={sponsor.name}
                   key={index}
-                  className="h-16"
+                  className="h-12 md:h-16"
                 />
               );
             })}
           </div>
         </div>
       </section>
-      <main className="px-52 pb-10" style={{ backgroundColor: "#f1f3f5" }}>
+      <main
+        className="px-10 md:px-28 xl:px-48 pb-10"
+        style={{ backgroundColor: "#f1f3f5" }}
+      >
         <section className="mb-10">
           <h3 className="font-semibold mb-4 text-2xl">Ce este FTC?</h3>
           <p className="tracking-wide mb-2">{AboutData.ftc_p1}</p>
@@ -51,29 +54,29 @@ const Home = () => {
           <p className="tracking-wide">{AboutData.who_we_are}</p>
         </section>
         <Gallery />
-        <section className="mb-10 flex items-center">
+        <section className="mb-10 flex flex-col md:flex-row items-center">
           <img
             src={logo_red}
             alt="VelocityRed logo"
-            className="w-1/4 mr-4 drop-shadow-md"
+            className="w-1/2 md:w-1/4 mr-4 drop-shadow-md"
           />
           <div>
-            <h3 className="font-medium mb-4 text-3xl">
-              Ce ii recomanda pe cei de la{" "}
+            <h3 className="font-medium mb-4 text-2xl lg:text-3xl">
+              Ce îi recomandă pe cei de la{" "}
               <span className="font-semibold text-red-600">Velocity Red</span>?
             </h3>
             <p className="tracking-wide">{AboutData.red}</p>
           </div>
         </section>
-        <section className="mb-10 flex items-center">
+        <section className="mb-10 flex flex-col md:flex-row items-center">
           <img
             src={logo_blue}
             alt="VelocityBlue logo"
-            className="w-1/4 mr-4 drop-shadow-md"
+            className="w-1/2 md:w-1/4 mr-4 drop-shadow-md"
           />
           <div>
-            <h3 className="font-medium mb-4 text-3xl">
-              Cum a luat nastere{" "}
+            <h3 className="font-medium mb-4 text-2xl lg:text-3xl">
+              Cum a luat naștere{" "}
               <span className="font-semibold text-blue-600">Velocity Blue</span>
               ?
             </h3>
@@ -88,7 +91,7 @@ const Home = () => {
 
 const Gallery = () => {
   return (
-    <div className="grid grid-cols-4 gap-2 mb-10">
+    <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-2 mb-10">
       {AboutData.gallery.map((robot, index) => (
         <figure key={index} className="overflow-hidden">
           <img

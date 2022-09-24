@@ -30,16 +30,17 @@ const Archive = () => {
         />
         <h2 className="font-semibold text-4xl">Arhivă</h2>
       </div>
-      <div className="mx-auto mb-16 w-16 h-1 bg-blue-500"></div>
-      <main className="mx-auto max-w-6xl mb-6 grid grid-cols-[200px_1fr] justify-center gap-16">
-        <aside className="flex flex-col">
+      <div className="mx-auto mb-10 md:mb-16 w-16 h-1 bg-blue-500"></div>
+      <main className="mx-auto max-w-6xl mb-6 grid grid-cols-1 md:grid-cols-[200px_1fr] justify-center gap-4 md:gap-16 p-6">
+        <aside className="flex flex-row flex-wrap justify-center md:flex-col md:justify-start">
           {ArchiveData.map((archive, index) => {
             return (
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
-                className={`text-2xl hover:text-blue-500 transition-all duration-300 hover:shadow-[-2px_0] px-6 py-1 mx-2 mb-4 ${
-                  index === currentIndex && "shadow-[-2px_0] text-blue-500"
+                className={`text-1xl md:text-2xl hover:text-blue-500 transition-all duration-300 hover:md:shadow-[-2px_0] hover:shadow-[0_2px] px-4 md:px-6 py-1 mx-2 mb-4 ${
+                  index === currentIndex &&
+                  "md:shadow-[-2px_0] shadow-[0_2px] text-blue-500"
                 }`}
               >
                 {archive.years}
@@ -48,7 +49,9 @@ const Archive = () => {
           })}
         </aside>
         <article>
-          <h3 className="text-4xl mb-3">{ArchiveData[currentIndex].title}</h3>
+          <h3 className="text-3xl md:text-4xl mb-3">
+            {ArchiveData[currentIndex].title}
+          </h3>
           <p className="py-1 px-3 bg-gray-200 text-gray-500 font-bold uppercase w-min whitespace-nowrap rounded-sm mb-3">
             {ArchiveData[currentIndex].theme}
           </p>
@@ -69,12 +72,12 @@ const Archive = () => {
               </p>
             </div>
           )}
-          <footer className="w-full flex flex-wrap gap-4 mb-6">
+          <footer className="w-full flex flex-wrap gap-4">
             {ArchiveData[currentIndex].files.map((file, index) => {
               return (
                 <div
                   key={index}
-                  className="bg-gray-200 flex items-center gap-2 px-4 py-2 rounded-sm opacity-50 hover:opacity-100 hover:shadow cursor-pointer"
+                  className="bg-gray-200 flex items-center gap-2 px-3 py-2 rounded-sm opacity-50 hover:opacity-100 hover:shadow cursor-pointer"
                   onClick={() => openFile(file.file)}
                 >
                   <img
@@ -89,18 +92,23 @@ const Archive = () => {
           </footer>
         </article>
       </main>
-      <section className="shadow-lg rounded-md p-4 m-6 ml-auto">
+      <section className="max-w-full shadow-lg rounded-md p-4 mb-8 mx-5 sm:ml-auto sm:w-[21rem]">
         <h4 className="font-medium mb-4">Website author</h4>
-        <div className="flex items-center gap-2">
-          <div className="bg-gray-300 font-bold rounded-full p-2">VM</div>
-          <p className="font-bold">Vlaviano Mario</p>
-          <div className="w-16"></div>
-          <SocialIcon
-            url="https://www.facebook.com/mario.vlaviano.75"
-            icon={fb}
-          />
-          <SocialIcon url="https://www.instagram.com/mario.vlv" icon={ig} />
-          <SocialIcon url="https://github.com/moryokav" icon={gh} />
+        <div className="flex items-center justify-between flex-wrap gap-2">
+          <div className="flex gap-2 items-center">
+            <div className="bg-gray-300 font-bold rounded-full w-fit p-2">
+              VM
+            </div>
+            <p className="font-bold">Vlaviano Mario</p>
+          </div>
+          <div className="flex gap-2 ml-auto">
+            <SocialIcon
+              url="https://www.facebook.com/mario.vlaviano.75"
+              icon={fb}
+            />
+            <SocialIcon url="https://www.instagram.com/mario.vlv" icon={ig} />
+            <SocialIcon url="https://github.com/moryokav" icon={gh} />
+          </div>
         </div>
       </section>
       <Footer />

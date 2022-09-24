@@ -7,7 +7,7 @@ const Footer = () => {
   const openLink = (link) => window.open(link);
 
   return (
-    <footer className="mt-auto w-full bg-gray-300 text-sm p-2 flex items-center justify-center gap-6 text-gray-600">
+    <footer className="mt-auto w-full bg-gray-300 text-sm p-2 flex items-center justify-center gap-6 flex-wrap text-gray-600">
       <span className="flex gap-2 h-4 grayscale opacity-75 cursor-pointer">
         <img
           src={fb}
@@ -21,7 +21,7 @@ const Footer = () => {
         />
       </span>
       <p>Copyright © {currentYear} Velocity</p>
-      <span className="w-16"></span>
+      <span className="hidden w-16 sm:inline-block"></span>
       <a href={`mailto:${GeneralData.email}`} className="hover:text-black">
         {GeneralData.email}
       </a>

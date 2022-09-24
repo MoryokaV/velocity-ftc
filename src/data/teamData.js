@@ -17,6 +17,8 @@ import dragan from "../assets/members/dragan.jpg";
 import tirila from "../assets/members/tirila.jpg";
 import prus from "../assets/members/prus.jpg";
 import vlaviano from "../assets/members/vlaviano.jpg";
+import prus_dragos from "../assets/members/prus_dragos.jpg";
+import enciu_diana from "../assets/members/enciu_diana.jpg";
 
 const TeamData = {
   about:
@@ -27,7 +29,7 @@ const TeamData = {
       name: "Mărgărit Andrei",
       category: "Programare",
       quote:
-        "Cand iti este frica sa sari, in exact acel moment vei sări, altfel vei ajunge sa ramai in acelasi loc toata viata",
+        "Când îți este frică să sari, in exact acel moment vei sări, altfel vei ajunge să rămâi in același loc toată viata",
       facebook: "https://web.facebook.com/biribocandrei",
       instagram: "https://www.instagram.com/andrei.margarit123/",
       teamName: blue,
@@ -61,7 +63,7 @@ const TeamData = {
     },
     {
       image: ghiata,
-      name: "Ghiata Andreea",
+      name: "Ghiață Andreea",
       category: "Jurnal",
       quote: "Singurul sens al vieții este acela de a servi omenirea.",
       facebook: "https://www.facebook.com/andreea.andre.92102",
@@ -91,7 +93,7 @@ const TeamData = {
       name: "Damian Cosmin",
       category: "Programare",
       quote:
-        "Cheia succesului este sa te concentrezi pe obiective, nu pe obstacole",
+        "Cheia succesului este să te concentrezi pe obiective, nu pe obstacole",
       facebook: "https://www.facebook.com/profile.php?id=100009264877547",
       instagram: "https://www.instagram.com/nusuntcosmin_/",
       teamName: blue,
@@ -117,7 +119,7 @@ const TeamData = {
       image: bacalu,
       name: "Bacalu Alex",
       category: "Construcții",
-      quote: "Fă ce trebuie sa faci pana poti face ceea ce vrei sa faci",
+      quote: "Fă ce trebuie să faci până poți face ceea ce vrei să faci",
       facebook: "https://www.facebook.com/alex.bacalu.1",
       instagram: "https://www.instagram.com/alexx.nicholass",
       teamName: blue,
@@ -146,7 +148,7 @@ const TeamData = {
       name: "Drăgan Alexandru",
       category: "Construcții",
       quote:
-        "Două calități pe lume nu pot fi simulate și nici inlocuite: inteligența și bunătatea! -  Ileana Vulpescu",
+        "Două calități pe lume nu pot fi simulate și nici înlocuite: inteligența și bunătatea! -  Ileana Vulpescu",
       instagram: "https://www.instagram.com/alex_na0539",
       teamName: blue,
     },
@@ -154,10 +156,30 @@ const TeamData = {
   mentors: [
     {
       image: prus,
-      name: "Paul Pruș",
+      name: "Pruș Paul",
       category: "",
       quote: "Cred că am inițiat mai mult decât o echipă, o adevărată familie.",
       facebook: "https://www.facebook.com/paul.prus",
+      teamName: undefined,
+    },
+    {
+      image: prus_dragos,
+      name: "Pruș Dragoș",
+      category: "",
+      quote:
+        "Învaţă repede din greşelile altora, că nu ai timp să le faci tu singur pe toate. - Sigmund Freud",
+      facebook: "https://www.facebook.com/dragos.prus",
+      instagram: "https://www.instagram.com/dragos_prus",
+      teamName: undefined,
+    },
+    {
+      image: enciu_diana,
+      name: "Enciu Diana",
+      category: "",
+      quote:
+        "Viața nu are limite, cu excepția celor pe care ți le impui singur. - Les Brown",
+      facebook: "https://www.facebook.com/profile.php?id=100002357172161",
+      instagram: "https://www.instagram.com/diana.maria.enciu",
       teamName: undefined,
     },
     {

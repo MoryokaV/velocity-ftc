@@ -7,6 +7,7 @@ import apan from "../assets/sponsors/apan.png";
 import solar_wats from "../assets/sponsors/solar_wats.png";
 import isj from "../assets/sponsors/isj.png";
 import plotter_design from "../assets/sponsors/plotter_design.png";
+import original_serv from "../assets/sponsors/original_serv.png";
 
 const GeneralData = {
   sponsors: [
@@ -45,6 +46,10 @@ const GeneralData = {
     {
       name: "Portul Romanel",
       icon: romanel,
+    },
+    {
+      name: "Original Serv",
+      icon: original_serv,
     },
   ],
   facebook: "https://www.facebook.com/velocityroboticsteam",
