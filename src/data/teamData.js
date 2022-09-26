@@ -19,6 +19,21 @@ import prus from "../assets/members/prus.jpg";
 import vlaviano from "../assets/members/vlaviano.jpg";
 import prus_dragos from "../assets/members/prus_dragos.jpg";
 import enciu_diana from "../assets/members/enciu_diana.jpg";
+import stergarel from "../assets/members/stergarel.png";
+import buzea from "../assets/members/buzea.png";
+import gorea from "../assets/members/gorea.png";
+import tudor from "../assets/members/tudor.png";
+import gonciar from "../assets/members/gonciar.png";
+import huluba from "../assets/members/huluba.png";
+import duna from "../assets/members/duna.png";
+import mahar from "../assets/members/mahar.png";
+import istrate from "../assets/members/istrate.png";
+import harabagiu from "../assets/members/harabagiu.png";
+import baciu from "../assets/members/baciu.png";
+import iordache from "../assets/members/iordache.png";
+import plopeanu from "../assets/members/plopeanu.png";
+import tihanov from "../assets/members/tihanov.png";
+import corina from "../assets/members/corina.png";
 
 const TeamData = {
   about:
@@ -151,6 +166,111 @@ const TeamData = {
         "Două calități pe lume nu pot fi simulate și nici înlocuite: inteligența și bunătatea! -  Ileana Vulpescu",
       instagram: "https://www.instagram.com/alex_na0539",
       teamName: blue,
+    },
+    {
+      image: stergarel,
+      name: "Ștergarel Teodora",
+      category: "Marketing",
+      quote: "Am inceput totul lucrand cu kit-uri EV3.",
+      facebook: "https://www.facebook.com/teo.teodora.0629",
+      instagram: "https://www.instagram.com/teodora_2906",
+      teamName: red,
+    },
+    {
+      image: buzea,
+      name: "Buzea Gina",
+      category: "Jurnal",
+      quote: "M-am înscris în acest proiect pentru a-mi testa limitele.",
+      facebook: "https://www.facebook.com/profile.php?id=100012912462603",
+      teamName: red,
+    },
+    {
+      image: gorea,
+      name: "Gorea Sabin",
+      category: "Programare",
+      quote:
+        "FTC este calea perfecta pentru a imi atinge visul de a lucra in domeniul IT.",
+      facebook: "https://www.facebook.com/sabin.gabriel.589",
+      instagram: "https://www.instagram.com/sabin.gabriel.211",
+      teamName: red,
+    },
+    {
+      image: tudor,
+      name: "Tudor Robert",
+      category: "Programare",
+      quote:
+        "Acest club îmi oferă șansa să mă dezvolt, să lucrez în echipă și să-mi testez limitele.",
+      facebook: "https://www.facebook.com/robert.tudor.731",
+      teamName: red,
+    },
+    {
+      image: gonciar,
+      name: "Gonciar Teodor",
+      category: "Printare 3D",
+      quote:
+        "Pasiunea mea in domeniul aceasta au inceput acum 2 ani odata ce fratele meu m-a invatat sa folosesc SolidWorks.",
+      facebook: "https://www.facebook.com/GonciarTeo",
+      teamName: red,
+    },
+    {
+      image: huluba,
+      name: "Huluba Octavian",
+      category: "Programare",
+      quote:
+        "Am decis sa continui sa ma dezvolt pe plan personal in cadrul echipei.",
+      facebook: "https://www.facebook.com/ioanoctavian.huluba",
+      teamName: red,
+    },
+    {
+      image: duna,
+      name: "Duna Horia",
+      category: "Construcții",
+      quote: "Robotica m-a interesat de cand am vazut kiturile de Lego EV3.",
+      facebook: "https://www.facebook.com/horia.duna.7",
+      teamName: red,
+    },
+    {
+      image: mahar,
+      name: "Mahar Yusif",
+      category: "Jurnal",
+      quote:
+        "M-am alaturat clubului de robotica datorita performantelor uimitoare pe care acesta le-a avut.",
+      facebook: "https://www.facebook.com/mahar.yusif.3",
+      teamName: red,
+    },
+    {
+      image: istrate,
+      name: "Istrate Amalia",
+      category: "Marketing",
+      quote:
+        "Am decis sa mă alătur clubului de robotică, deoarece imi place să accept provocări noi.",
+      facebook: "https://www.facebook.com/profile.php?id=100004241176875",
+      teamName: red,
+    },
+    {
+      image: harabagiu,
+      name: "Harabagiu Daria",
+      category: "Jurnal",
+      quote: "Mi se pare o activitate interesanta.",
+      facebook: "https://www.facebook.com/daria.harabagiu.5",
+      teamName: red,
+    },
+    {
+      image: iordache,
+      name: "Iordache Stefan",
+      category: "Programare",
+      quote:
+        "Intrarea în echipă a însemnat pentru mine șansa de a învăța lucruri noi.",
+      facebook: "https://www.facebook.com/stefan.iordache.9887",
+      teamName: red,
+    },
+    {
+      image: corina,
+      name: "Fotin Corina",
+      category: "Constructii",
+      quote: "Imi place atmosfera familiei Velocity.",
+      instagram: "https://www.instagram.com/astro.corina",
+      teamName: red,
     },
   ],
   mentors: [

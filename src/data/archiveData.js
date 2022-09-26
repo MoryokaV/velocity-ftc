@@ -67,30 +67,12 @@ const ArchiveData = [
     ],
   },
   {
-    years: "2017 - 2018",
-    title: "",
-    theme: "",
-    date: "",
-    paragraph1: "",
-    files: [
-      {
-        file: jurnalBlue2022,
-        name: "Jurnal Velocity Blue 2022.pdf",
-      },
-    ],
-  },
-  {
     years: "2016 - 2017",
     title: "",
     theme: "",
-    date: "",
+    date: "Octombrie 2020 - Mai 2021",
     paragraph1: "",
-    files: [
-      {
-        file: jurnalBlue2022,
-        name: "Jurnal Velocity Blue 2022.pdf",
-      },
-    ],
+    files: [],
   },
 ];
 

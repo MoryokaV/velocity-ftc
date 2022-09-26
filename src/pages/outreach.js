@@ -9,12 +9,6 @@ const Outreach = () => {
       <div className="bg-gradient-to-r to-[#243c5a] from-[#50637b] w-full mt-14 text-right pt-4 pr-4 pb-2">
         <p className="text-3xl md:text-4xl text-white">Evenimente</p>
       </div>
-      <section className="my-10 px-10 lg:px-48">
-        <h2 className="font-semibold mb-2 text-2xl">
-          De ce sunt importante evenimentele?
-        </h2>
-        <p className="tracking-wide">{OutreachData.about}</p>
-      </section>
       <main className="w-full mb-10">
         {OutreachData.events.map((event, index) => {
           return (
