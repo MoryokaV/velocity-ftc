@@ -29,11 +29,9 @@ import duna from "../assets/members/duna.png";
 import mahar from "../assets/members/mahar.png";
 import istrate from "../assets/members/istrate.png";
 import harabagiu from "../assets/members/harabagiu.png";
-import baciu from "../assets/members/baciu.png";
 import iordache from "../assets/members/iordache.png";
-import plopeanu from "../assets/members/plopeanu.png";
-import tihanov from "../assets/members/tihanov.png";
 import corina from "../assets/members/corina.png";
+import gruia from "../assets/members/gruia.jpg";
 
 const TeamData = {
   about:
@@ -300,6 +298,16 @@ const TeamData = {
         "Viața nu are limite, cu excepția celor pe care ți le impui singur. - Les Brown",
       facebook: "https://www.facebook.com/profile.php?id=100002357172161",
       instagram: "https://www.instagram.com/diana.maria.enciu",
+      teamName: undefined,
+    },
+    {
+      image: gruia,
+      name: "Gruia Călin",
+      category: "",
+      quote:
+        "Încerc să ajut generațiile urmatoare să învete mai eficient, fără a repeta aceleași greșeli ca și mine.",
+      facebook: "https://www.facebook.com/calin.cdg",
+      instagram: "https://www.instagram.com/calin.west/",
       teamName: undefined,
     },
     {

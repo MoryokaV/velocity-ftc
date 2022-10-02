@@ -19,7 +19,6 @@ const Navbar = () => {
           <NavItem title="Acasă" url="/" />
           <NavItem title="Evenimente" url="/outreach" />
           <NavItem title="Echipă" url="/team" />
-          <NavItem title="Arhivă" url="/archive" />
         </nav>
         <nav className="sm:hidden">
           <button onClick={() => setDrawer(true)}>
@@ -39,7 +38,6 @@ const Navbar = () => {
           <NavItem title="Acasă" url="/" />
           <NavItem title="Evenimente" url="/outreach" />
           <NavItem title="Echipă" url="/team" />
-          <NavItem title="Arhivă" url="/archive" />
         </nav>
       </div>
     </>
