@@ -38,14 +38,13 @@ const TeamData = {
     "O echipă, conform definiției, este un grup de persoane care interacționează, deliberează și gândesc într-un mod coordonant și cooperant, unite între ele de atingerea unui obiectiv comun, dar pentru noi o echipă înseamnă devotament, idei ingenioase puse în practică datorită celor trei valori esențiale: COMUNICARE, RESPECT și ÎNCREDERE. Așa cum filosoful Henry David Thoreau susținea faptul că: 'Să formezi o echipă este doar începutul, să rămâi împreună este progresul, să lucrezi împreună este succesul!' și noi credem că strânși la un loc cu alții asemenea nouă, devenim un grup care ar trebui să fie sudat, să construiască, să evolueze. Astfel, noi, cei 30 de adolescenți curioși și pregătiți să revoluționăm lumea, alcătuim echipa Velocity, ce este împărțită în 5 departamente: CONSTRUCȚIE, locul în care planurile noastre devin realitate; PROGRAMARE, fără de care robotul nu ar putea prinde viață; PROIECTARE 3D, unde detaliile fac diferența; MARKETING, cu ajutorul căruia ne facem auziți; JURNAL, spațiul în care scriem poveste.",
   members: [
     {
-      image: margarit,
-      name: "Mărgărit Andrei",
-      category: "Programare",
-      quote:
-        "Când îți este frică să sari, in exact acel moment vei sări, altfel vei ajunge să rămâi in același loc toată viata",
-      facebook: "https://web.facebook.com/biribocandrei",
-      instagram: "https://www.instagram.com/andrei.margarit123/",
-      teamName: blue,
+      image: stergarel,
+      name: "Ștergarel Teodora",
+      category: "Marketing",
+      quote: "Am inceput totul lucrand cu kit-uri EV3.",
+      facebook: "https://www.facebook.com/teo.teodora.0629",
+      instagram: "https://www.instagram.com/teodora_2906",
+      teamName: red,
     },
     {
       image: gheorghita,
@@ -75,12 +74,12 @@ const TeamData = {
       teamName: blue,
     },
     {
-      image: ghiata,
-      name: "Ghiață Andreea",
-      category: "Jurnal",
-      quote: "Singurul sens al vieții este acela de a servi omenirea.",
-      facebook: "https://www.facebook.com/andreea.andre.92102",
-      teamName: blue,
+      image: duna,
+      name: "Duna Horia",
+      category: "Construcții",
+      quote: "Robotica m-a interesat de cand am vazut kiturile de Lego EV3.",
+      facebook: "https://www.facebook.com/horia.duna.7",
+      teamName: red,
     },
     {
       image: streche,
@@ -92,14 +91,13 @@ const TeamData = {
       teamName: blue,
     },
     {
-      image: popescu,
-      name: "Popescu Diana",
-      category: "Marketing",
-      quote: "I wish my eyes could take photos",
-      facebook:
-        "https://www.facebook.com/profile.php?id=100010437977687&_rdc=1&_rdr",
-      instagram: "https://www.instagram.com/dianapop_02/",
-      teamName: blue,
+      image: tudor,
+      name: "Tudor Robert",
+      category: "Programare",
+      quote:
+        "Acest club îmi oferă șansa să mă dezvolt, să lucrez în echipă și să-mi testez limitele.",
+      facebook: "https://www.facebook.com/robert.tudor.731",
+      teamName: red,
     },
     {
       image: damian,
@@ -112,20 +110,21 @@ const TeamData = {
       teamName: blue,
     },
     {
+      image: gorea,
+      name: "Gorea Sabin",
+      category: "Programare",
+      quote:
+        "FTC este calea perfecta pentru a imi atinge visul de a lucra in domeniul IT.",
+      facebook: "https://www.facebook.com/sabin.gabriel.589",
+      instagram: "https://www.instagram.com/sabin.gabriel.211",
+      teamName: red,
+    },
+    {
       image: tarachiu,
       name: "Tarachiu Ionuț",
       category: "Construcții",
       quote: "Pierzi doar dacă nu mai încerci",
       instagram: "https://www.instagram.com/ionut.47",
-      teamName: blue,
-    },
-    {
-      image: enciu_bianca,
-      name: "Enciu Bianca",
-      category: "Jurnal",
-      quote:
-        "Secretul succesului constă în a vrea să câștigi și a ști să pierzi!",
-      instagram: "https://www.instagram.com/byabyanca_017",
       teamName: blue,
     },
     {
@@ -166,15 +165,6 @@ const TeamData = {
       teamName: blue,
     },
     {
-      image: stergarel,
-      name: "Ștergarel Teodora",
-      category: "Marketing",
-      quote: "Am inceput totul lucrand cu kit-uri EV3.",
-      facebook: "https://www.facebook.com/teo.teodora.0629",
-      instagram: "https://www.instagram.com/teodora_2906",
-      teamName: red,
-    },
-    {
       image: buzea,
       name: "Buzea Gina",
       category: "Jurnal",
@@ -183,23 +173,14 @@ const TeamData = {
       teamName: red,
     },
     {
-      image: gorea,
-      name: "Gorea Sabin",
-      category: "Programare",
-      quote:
-        "FTC este calea perfecta pentru a imi atinge visul de a lucra in domeniul IT.",
-      facebook: "https://www.facebook.com/sabin.gabriel.589",
-      instagram: "https://www.instagram.com/sabin.gabriel.211",
-      teamName: red,
-    },
-    {
-      image: tudor,
-      name: "Tudor Robert",
-      category: "Programare",
-      quote:
-        "Acest club îmi oferă șansa să mă dezvolt, să lucrez în echipă și să-mi testez limitele.",
-      facebook: "https://www.facebook.com/robert.tudor.731",
-      teamName: red,
+      image: popescu,
+      name: "Popescu Diana",
+      category: "Marketing",
+      quote: "I wish my eyes could take photos",
+      facebook:
+        "https://www.facebook.com/profile.php?id=100010437977687&_rdc=1&_rdr",
+      instagram: "https://www.instagram.com/dianapop_02/",
+      teamName: blue,
     },
     {
       image: gonciar,
@@ -211,20 +192,20 @@ const TeamData = {
       teamName: red,
     },
     {
+      image: ghiata,
+      name: "Ghiață Andreea",
+      category: "Jurnal",
+      quote: "Singurul sens al vieții este acela de a servi omenirea.",
+      facebook: "https://www.facebook.com/andreea.andre.92102",
+      teamName: blue,
+    },
+    {
       image: huluba,
       name: "Huluba Octavian",
       category: "Programare",
       quote:
         "Am decis sa continui sa ma dezvolt pe plan personal in cadrul echipei.",
       facebook: "https://www.facebook.com/ioanoctavian.huluba",
-      teamName: red,
-    },
-    {
-      image: duna,
-      name: "Duna Horia",
-      category: "Construcții",
-      quote: "Robotica m-a interesat de cand am vazut kiturile de Lego EV3.",
-      facebook: "https://www.facebook.com/horia.duna.7",
       teamName: red,
     },
     {
@@ -237,6 +218,16 @@ const TeamData = {
       teamName: red,
     },
     {
+      image: margarit,
+      name: "Mărgărit Andrei",
+      category: "Programare",
+      quote:
+        "Când îți este frică să sari, in exact acel moment vei sări, altfel vei ajunge să rămâi in același loc toată viata",
+      facebook: "https://web.facebook.com/biribocandrei",
+      instagram: "https://www.instagram.com/andrei.margarit123/",
+      teamName: blue,
+    },
+    {
       image: istrate,
       name: "Istrate Amalia",
       category: "Marketing",
@@ -244,6 +235,15 @@ const TeamData = {
         "Am decis sa mă alătur clubului de robotică, deoarece imi place să accept provocări noi.",
       facebook: "https://www.facebook.com/profile.php?id=100004241176875",
       teamName: red,
+    },
+    {
+      image: enciu_bianca,
+      name: "Enciu Bianca",
+      category: "Jurnal",
+      quote:
+        "Secretul succesului constă în a vrea să câștigi și a ști să pierzi!",
+      instagram: "https://www.instagram.com/byabyanca_017",
+      teamName: blue,
     },
     {
       image: harabagiu,
