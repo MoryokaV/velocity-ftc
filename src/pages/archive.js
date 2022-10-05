@@ -22,7 +22,7 @@ const Archive = () => {
   return (
     <>
       <Navbar />
-      <div className="mt-24 mb-2 flex flex-col jusify-center items-center gap-4">
+      <div className="mt-10 mb-2 flex flex-col jusify-center items-center gap-4">
         <img
           alt="Archive svg icon"
           src={archive_ic}

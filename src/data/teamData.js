@@ -313,7 +313,7 @@ const TeamData = {
     {
       image: vlaviano,
       name: "Vlaviano Mario",
-      category: "",
+      category: "Website Author",
       quote: "Îmi place să îmi împărtășesc cunoștințele în IT cu ceilalți.",
       facebook: "https://www.facebook.com/paul.prus",
       instagram: "https://www.instagram.com/mario.vlv/",

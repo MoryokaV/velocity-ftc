@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-10 bg-white/25 flex justify-between items-center backdrop-blur-lg w-full h-14 px-6">
+      <header className="sticky top-0 left-0 right-0 z-10 bg-white/25 flex justify-between items-center backdrop-blur-lg w-full h-14 px-6">
         <div className="flex gap-2 h-full items-center">
           <img src={logo} alt="Velocity logo" className="h-full" />
           <h4 className="tracking-tight font-medium text-lg">Velocity</h4>

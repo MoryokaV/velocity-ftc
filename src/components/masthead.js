@@ -24,7 +24,7 @@ const Masthead = () => {
       <Navbar />
       <div
         ref={refContainer}
-        className="sticky top-0 -z-10 w-screen max-w-full mt-14"
+        className="sticky top-0 -z-10 w-screen max-w-full"
         style={{ transform: `translateY(-${progress * 20}vh)` }}
       >
         <img

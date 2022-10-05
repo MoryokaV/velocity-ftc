@@ -6,7 +6,7 @@ const Outreach = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gradient-to-r to-[#243c5a] from-[#50637b] w-full mt-14 text-right pt-4 pr-4 pb-2">
+      <div className="bg-gradient-to-r to-[#243c5a] from-[#50637b] w-full text-right pt-4 pr-4 pb-2">
         <p className="text-3xl md:text-4xl text-white">Evenimente</p>
       </div>
       <main className="w-full mb-10">

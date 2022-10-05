@@ -52,7 +52,7 @@ const Team = () => {
 
 const Departments = () => {
   return (
-    <div className="w-full grid grid-cols-2 md:grid-cols-4 mt-14">
+    <div className="w-full grid grid-cols-2 md:grid-cols-4">
       <div className="bg-gray-300 w-full flex flex-col justify-center items-center p-4 h-[10rem] sm:h-[15rem]">
         <img
           src={construction_ic}
