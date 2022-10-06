@@ -315,7 +315,7 @@ const TeamData = {
       name: "Vlaviano Mario",
       category: "Website Author",
       quote: "Îmi place să îmi împărtășesc cunoștințele în IT cu ceilalți.",
-      facebook: "https://www.facebook.com/paul.prus",
+      facebook: "https://www.facebook.com/mario.vlaviano.75",
       instagram: "https://www.instagram.com/mario.vlv/",
       github: "https://github.com/MoryokaV",
       teamName: undefined,
