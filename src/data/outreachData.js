@@ -30,7 +30,7 @@ const OutreachData = {
       image: event3,
     },
     {
-      title: "Robtics winter event",
+      title: "Robotics winter event",
       date: "Decembrie 2019",
       content:
         "Duminică, 8 decembrie 2019 a avut loc ROBOTICS WINTER EVENT la Brăila Mall. Evenimentul a adus în atenția comunității brăilene 4 echipe din județ, dar și Galați ce au prezentat publicului competiția BRD FIRST Tech Challenge organizată de Asociația Nație Prin Educație. După o defilare a roboților, membrii echipelor au oferit ocazia de a controla roboții copiilor prezenți, reușind astfel să promoveze activitățile educaționale de tip STEM. Mulțumim echipelor participante 'Helix', ' RODAC' și Byteforce' pentru prezența și implicarea în acest eveniment.",

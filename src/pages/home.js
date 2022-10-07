@@ -1,5 +1,4 @@
 import Masthead from "../components/masthead";
-import ScrollObserver from "../utils/scroll-observer";
 import Footer from "../components/footer";
 
 import AboutData from "../data/aboutData";
@@ -10,7 +9,7 @@ import logo_blue from "../assets/logo_blue.png";
 
 const Home = () => {
   return (
-    <ScrollObserver>
+    <>
       <Masthead />
       <section className="py-10 w-full" style={{ backgroundColor: "#f1f3f5" }}>
         <div className="marquee">
@@ -85,7 +84,7 @@ const Home = () => {
         </section>
       </main>
       <Footer />
-    </ScrollObserver>
+    </>
   );
 };
 

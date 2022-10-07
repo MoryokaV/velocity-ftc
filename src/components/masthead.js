@@ -1,19 +1,10 @@
-import { useEffect, useState, useRef, useContext } from "react";
+import { useEffect, useState } from "react";
 import coverPhoto from "../assets/cover.jpg";
 import Navbar from "./navbar";
-import { ScrollContext } from "../utils/scroll-observer";
 import AboutData from "../data/aboutData";
 
 const Masthead = () => {
   const [headingAnimation, setHeadingAnimation] = useState(false);
-  const refContainer = useRef(null);
-  const { scrollY } = useContext(ScrollContext);
-
-  let progress = 0;
-
-  if (refContainer.current) {
-    progress = Math.min(1, scrollY / refContainer.current.clientHeight);
-  }
 
   useEffect(() => {
     setTimeout(() => setHeadingAnimation(true), 500);
@@ -22,11 +13,7 @@ const Masthead = () => {
   return (
     <>
       <Navbar />
-      <div
-        ref={refContainer}
-        className="sticky top-0 -z-10 w-screen max-w-full"
-        style={{ transform: `translateY(-${progress * 20}vh)` }}
-      >
+      <div className="sticky top-14 -z-10 w-screen max-w-full">
         <img
           src={coverPhoto}
           alt="Team members and mentors"
